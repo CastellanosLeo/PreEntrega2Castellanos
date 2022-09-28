@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/****************************************************************
+
+ESTILOS HEADER
+
+*****************************************************************/
+.headerContenedor {
+  margin-bottom: 15px;
+}
+.logo{
+    width: 150px;
+    height: 130px;
+    background-position: center;
+    background-size:cover;
+    border-radius: 50%;
+
+padding: 10px;
+}
+form {
+  margin-left: 87%;
+}
+.lupa{
+    position: absolute;
+    top: 6%;
+    left: 83.6%;
+    cursor: pointer;
+}
+.buscador{
+    position: absolute;
+    top: 7%;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+nav {
+  box-shadow: 2px 1px rgb(214, 138, 163);
+}
+#nav__ {
+  margin-left: 55%;
+}
+.botones {
+  text-decoration: none;
+  margin-right: 1px;
+  color: palevioletred;
+  padding: 20px;
+ }
+.botones:hover{
+    background: palevioletred;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+/****************************************************************
+
+ESTILOS MAIN
+
+*****************************************************************/
+.imagenMain {
+  width: 500px;
+  position: absolute;
+  border-radius: 10px;
+  left: 60%;
+  top: 45%;
+}
+.tituloPrincipal {
+  font-size: 4.5rem;
+  color: palevioletred;
+  margin-left: 30px;
+}
+.textoMain{
+    font-size:30px;
+    width:50%;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+/****************************************************************
+
+ESTILOS FOOTER
+
+*****************************************************************/
+
+.footercContenedor {
+
+ padding: 50px;
+ margin-top:350px;
+ border-top: palevioletred solid 1px;
+ background-color: rgb(235, 152, 180);
+}
+#nav__footer{
+    margin-left: 45%;
+}
