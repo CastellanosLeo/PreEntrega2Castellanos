@@ -20,6 +20,7 @@ ESTILOS HEADER
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 form {
@@ -89,17 +90,71 @@ ESTILOS FOOTER
  margin-top:220px;
  border-top: palevioletred solid 1px;
  background-color: rgb(235, 152, 180);
+ display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .footercContenedor2{
   padding: 50px;
-  margin-top:460px;
+  margin-top:600px;
   border-top: palevioletred solid 1px;
   background-color: rgb(235, 152, 180);
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-#nav__footer{
-    margin-left: 45%;
+
+
+/*Search*/
+.containerr{
+  position: relative;
 }
+.containerr .lupa{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 13px;
+  color: black;
+  -webkit-transition: 0.3s ease-out;
+          transition: 0.3s ease-out;
+         
+}
+#search{
+  width: 50px;
+  height: 50px;
+  color: black;
+  border: none;
+  font-size: 0.9em;
+  float: left;
+  padding-left: 80px;
+  -webkit-transition: 0.6s ease-out;
+          transition: 0.6s ease-out;
+          background-color: rgba(248,249,250);
+}
+
+#search:focus, 
+#search:active{
+  outline:none;
+  width: 300px;
+  padding-right: 20px;
+}
+.containerr:hover #search{
+  width: 300px;
+  background-color: rgba(248,249,250);
+  border-radius: 8px;
+}
+.containerr:hover .lupa{
+  color: #0f0f0f;
+}
+
+.contaSearch{
+  display: flex;
+  justify-content: space-between;
+}
+.buscadorr{
+  margin-right: 40px;
+}
+
 
 /************************************************************
 
@@ -126,6 +181,9 @@ MEDIA QUERYS
   font-size: 3rem;
   color: palevioletred;
   margin-left: 140px;
+}
+.contaSearch{
+  display: flex;
 }
 
 
