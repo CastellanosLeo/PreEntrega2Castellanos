@@ -24,6 +24,9 @@ ESTILOS HEADER
   display: flex;
   flex-direction: column;
 }
+.mainContenedor{
+ margin-top: 100px;
+}
 
 .mainContenedor__imagen{
   display: flex;
