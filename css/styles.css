@@ -175,13 +175,6 @@ ESTILOS FOOTER
   border-radius: 10px;
 }
 
-.photo:hover{
-  width: 430px;
-  height: 380px;
--webkit-transition: 0.6s ease-out;
-transition: 0.6s ease-out;
-}
-
 .fotos{
   display: grid;
   grid-template-columns: repeat(3, 0.4fr);
