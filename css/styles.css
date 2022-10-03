@@ -26,6 +26,9 @@ ESTILOS HEADER
 }
 .mainContenedor{
  margin-top: 100px;
+ display:flex;
+ align-items: center;
+ flex-direction: column;
 }
 
 .mainContenedor__imagen{
@@ -36,40 +39,6 @@ ESTILOS HEADER
   gap: 20px;
 }
 
-form {
-  margin-left: 87%;
-}
-.lupa{
-    position: absolute;
-    top: 6%;
-    left: 83.6%;
-    cursor: pointer;
-}
-.buscador{
-    position: absolute;
-    top: 7%;
-    padding: 5px;
-    border-radius: 5px;
-
-}
-nav {
-  box-shadow: 2px 1px rgb(214, 138, 163);
-}
-#nav__ {
-  margin-left: 55%;
-}
-.botones {
-  text-decoration: none;
-  margin-right: 1px;
-  color: palevioletred;
-  padding: 20px;
- }
-.botones:hover{
-    background: palevioletred;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-}
 /****************************************************************
 
 ESTILOS MAIN
@@ -119,7 +88,11 @@ ESTILOS FOOTER
 }
 
 
-/*Search*/
+/****************************************************************
+
+BUSCADOR
+
+*****************************************************************/
 .containerr{
   position: relative;
 }
@@ -168,11 +141,23 @@ ESTILOS FOOTER
   margin-right: 40px;
 }
 
-/*fotos*/
+/************************************************************
+
+FOTOS
+
+************************************************************/
 .photo{
   width: 450px;
   height: 400px;
   border-radius: 10px;
+}
+
+.photo:hover{
+  -webkit-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+  width: 430px;
+  height: 380px;
+  
 }
 
 .fotos{
@@ -183,15 +168,13 @@ ESTILOS FOOTER
   margin-left: 45px;
 }
 
-
-
 /************************************************************
 
 MEDIA QUERYS
 
 ************************************************************/
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .mainContenedor__imagen{
     display: flex;
     flex-direction: column-reverse;    
@@ -219,6 +202,9 @@ MEDIA QUERYS
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+}
+.photo{
+  width: 380px;
 }
 
 
