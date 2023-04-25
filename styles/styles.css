@@ -14,7 +14,7 @@
     flex-direction: row;
     justify-content: space-between;    
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .background1 {
     background-position: left;
 }
@@ -106,7 +106,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;    
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .background2 {
     background-position: left;
 }
@@ -125,7 +125,7 @@ footer{
     gap: 40px;
     
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .clasificacion_pilotos {
     width: 100%;
     display: flex;
@@ -157,6 +157,8 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
 /*Circuitos Styles*/
 .background4{
     background-image:linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../assets/circuitos.jpg);
