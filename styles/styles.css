@@ -1,10 +1,11 @@
-*{
+* {
     font-family: 'Advent Pro', sans-serif;
 }
+
 /*Home Style*/
 
-.background1{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../assets/home.jpg);
+.background1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../assets/home.jpg);
     background-repeat: no-repeat;
     height: 60vh;
     background-position: center;
@@ -12,79 +13,107 @@
     color: aliceblue;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
+
 @media screen and (max-width: 700px) {
     .background1 {
-    background-position: left;
+        background-position: left;
+    }
+
+    .background2 {
+        background-position: left;
+    }
+
+    .clasificacion_pilotos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
-}
-.logo{
+
+.logo {
     width: 40vh;
-    margin-right: 5vh;
+    margin-right: 5vh;
     margin-top: -5vh;
 }
-.conte1{
+
+.conte1 {
     margin-left: 1.5vh;
     margin-top: 2vh;
 }
-.title{
-    font-size: 9vh;
+
+.title {
+    font-size: 9vh;
     color: red;
 }
-.subtitle{
+
+.subtitle {
     color: red;
     margin-top: -1.5vh;
 }
-.logoBarra{
+
+.logoBarra {
     width: 10vh;
 }
-.inicio{
-    color:brown !important;
+
+.inicio {
+    color: brown !important;
 }
-.noticias{
-    width: 50vh;
-    border-radius: 1.5vh;
+
+.noticias {
+    width: 400px;
+    border-radius: 1.5vh;
 }
-footer{
+
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
-.instagram{
-    width:7vh;
-    margin-left: 1vh;
-    margin-right: 2vh;
-}
-.facebook{
-    width: 6vh;
-    margin-left: 1.5vh;
-    margin-right: 2.5vh;
-}
-.gmail{
-    width: 6vh;
-    margin-left: 1.5vh;
-    margin-right: 2.5vh;
-}
-.twitter{
+.instagram {
     width: 7vh;
     margin-left: 1vh;
     margin-right: 2vh;
 }
-.phone{
+
+.facebook {
+    width: 6vh;
+    margin-left: 1.5vh;
+    margin-right: 2.5vh;
+}
+
+.gmail {
+    width: 6vh;
+    margin-left: 1.5vh;
+    margin-right: 2.5vh;
+}
+
+.twitter {
     width: 7vh;
     margin-left: 1vh;
     margin-right: 2vh;
 }
-.redes{
+
+.phone {
+    width: 7vh;
+    margin-left: 1vh;
+    margin-right: 2vh;
+}
+
+.redes {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.final{
+
+.final {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,10 +122,29 @@ footer{
     margin-top: 5vh;
 }
 
+.animacion:hover {
+    background-color: wheat;
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 /*Clasificacion Styles*/
 
-.background2{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../assets/clasificacion2.jpg);
+.background2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../assets/clasificacion2.jpg);
     background-repeat: no-repeat;
     height: 60vh;
     background-position: center;
@@ -104,15 +152,10 @@ footer{
     color: aliceblue;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
-}
-@media screen and (max-width: 700px) {
-    .background2 {
-    background-position: left;
-}
+    justify-content: space-between;
 }
 
-.clasificacion_pilotos{
+.clasificacion_pilotos {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -123,31 +166,23 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 40px;
-    
+
 }
-@media screen and (max-width: 700px) {
-    .clasificacion_pilotos {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-}
-.titulo_tablas{
+
+.titulo_tablas {
     font-weight: 100;
     font-size: 50px;
 }
-.nombre_tabla{
+
+.nombre_tabla {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
 /*Escuderia Styles*/
-.background3{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../assets/escuderias.jpg);
+.background3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../assets/escuderias.jpg);
     background-repeat: no-repeat;
     height: 60vh;
     background-position: center;
@@ -160,20 +195,8 @@ footer{
 
 
 /*Circuitos Styles*/
-.background4{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../assets/circuitos.jpg);
-    background-repeat: no-repeat;
-    height: 60vh;
-    background-position: center;
-    background-size: cover;
-    color: aliceblue;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-/*Pilotos Styles*/
-.background5{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url(../assets/pilotos2.jpg);
+.background4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)), url(../assets/circuitos.jpg);
     background-repeat: no-repeat;
     height: 60vh;
     background-position: center;
@@ -184,6 +207,19 @@ footer{
     justify-content: space-between;
 }
 
-.caja{
+/*Pilotos Styles*/
+.background5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url(../assets/pilotos2.jpg);
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caja {
     height: 500px;
 }

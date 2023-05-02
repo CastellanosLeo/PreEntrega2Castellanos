@@ -1,0 +1,53 @@
+/* General reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+}
+
+/* Remove default margin */
+body {
+	margin: 0;
+}
+
+/* Tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Remove default border spacing */
+img {
+	border: 0;
+}
+
+/* Set defaults for links */
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #000;
+}
+a:active {
+	color: #fff;
+	text-decoration: none;
+	background-color: #000;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
